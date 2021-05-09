@@ -7,11 +7,12 @@ import DS_ITAM from './DS_ITAM'
 function DataScienceResearch() {
   return (
     <div>
-      <h1>Data Science</h1>
+      <h1 align="justify">Data Science</h1>
       <DS_CMR />
       <DS_ITAM />
     </div>
   )
 }
+
 
 export default DataScienceResearch;

@@ -17,11 +17,11 @@ function App() {
       
       <Row>
         {/* Basic Info and Contact */}
-        <Col sm={4}>
+        <Col sm={3}>
         <Profile />
         </Col>
         {/* Main Panel */}
-        <Col sm={8}> 
+        <Col sm={9}> 
         <MainPanel />
         </Col>
       </Row>

@@ -10,7 +10,7 @@ function Eco_CO20() {
         Did the Introduction of Inflation Targeting Represent a Regime Switch of Monetary Policy in Latin America?
       </a> 
       </h2>
-      <p >
+      <p align="justify">
       <strong>Sebastián Cadavid-Sánchez</strong>, and A. Ortiz Bolaños <i>(Inflationary  Dynamics,  Persistence,  and  Prices  and Wages Formation.  Editorial CEMLA, 2020)</i>
       </p>
       <p align="justify">

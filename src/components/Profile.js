@@ -16,7 +16,7 @@ const style = { color: "gray", fontSize: "1.8em", justifyContent: 'space-between
 
 const Profile = ({size}) => {
     return(
-    <Card style={{ width: '20rem' }} className="mt-1">
+    <Card style={{ width: '30rem' }} className="mt-1">
     <Card.Img variant="top" src={photo} rounded />
     <Card.Body>
         {/* <Image src={photo} rounded fluid/> */}

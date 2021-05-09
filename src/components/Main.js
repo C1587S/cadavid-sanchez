@@ -8,9 +8,6 @@ function MainPanel() {
       <div className="App">
         <Container fluid>
         <Row>
-            <h1>Research Interests</h1>
-        </Row>
-        <Row>
             <Research />
         </Row>
         </Container>

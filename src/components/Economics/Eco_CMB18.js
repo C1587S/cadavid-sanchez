@@ -4,7 +4,7 @@ function Eco_CS18() {
     <div>
       <h2>
       <a href="https://repositorio.uniandes.edu.co/handle/1992/41059">  
-      XMonetary policy and structural changes in Colombia, 1990-2016: A Markov Switching Approach
+      Monetary policy and structural changes in Colombia, 1990-2016: A Markov Switching Approach
       </a> 
       </h2>
       <p align="justify">

@@ -9,7 +9,7 @@ import Eco_COR18 from './Eco_COR18'
 function EconomicsResearch() {
   return (
     <div>
-      <h1>Economics</h1>
+      <h1 align="justify">Economics</h1>
       <Eco_CO20 />
       <Eco_CS18 />
       <Eco_COM18 />

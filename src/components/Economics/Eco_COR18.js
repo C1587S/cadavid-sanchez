@@ -23,7 +23,9 @@ function Eco_COR18() {
       three Markov states for variances, we estimate a Markov-switching dynamic stochastic general equilibrium (MS-DSGE) 
       macroeconomic model with financial frictions in long-term debt instruments developed by Carlstrom et al. (2017) to 
       provide evidence on how financial conditions have evolved in the us since 1962 and how the Federal Reserve Bank has 
-      responded to the evolution of term premiums. Using the estimated model, we perform a counterfactual analysis of the 
+      responded to the evolution of term premiums. 
+      <br></br><br></br>
+      Using the estimated model, we perform a counterfactual analysis of the 
       potential evolution of macroeconomic and financial variables under alternative financial conditions and monetary policy 
       responses. We analyze six episodes with the presence of high financial frictions and/or medium and high shocks volatility. 
       In three of them there was a high monetary policy response to financial factors: 1978Q4-1983Q4 which helped to mitigate 

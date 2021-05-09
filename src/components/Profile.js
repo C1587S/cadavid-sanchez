@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/Image'
 import photo from '../profile.jpg';
 import Card from 'react-bootstrap/Card'
 import '../App.css';
-
+import { Link } from 'react-router-dom';
 import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";

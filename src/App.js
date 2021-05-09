@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import MainPanel from './components/Main.js'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Row, Col, Container } from 'react-bootstrap'
 
-// navBar
+import MainPanel from './components/Main.js'
 import NavMenu from './components/NavBarHeader'
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
         {/* Basic Info and Contact */}
         <Col sm={4}>sm=4s 
         </Col>
-        {/* Research */}
+        {/* Main Panel */}
         <Col sm={8}> 
         <MainPanel />
         </Col>

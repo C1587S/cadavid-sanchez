@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card'
 
 const Profile = ({size}) => {
     return(
-    <Card style={{ width: '20rem' }}>
+    <Card style={{ width: '20rem' }} className="mt-1">
     <Card.Img variant="top" src={photo} rounded />
     <Card.Body>
         {/* <Image src={photo} rounded fluid/> */}
@@ -14,8 +14,6 @@ const Profile = ({size}) => {
         <Card.Subtitle className="mb-2 text-muted">MS in Data Science & MA in Economics</Card.Subtitle>
         <Card.Text className="text-center">
         </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
     </Card.Body>
     </Card>
     );

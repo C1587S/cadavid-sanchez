@@ -8,11 +8,13 @@ import MainPanel from './components/Main.js'
 import NavMenu from './components/NavBarHeader'
 import Profile from './components/Profile'
 
+
 function App() {
   return (
     <div className="App">
       <Container fluid>
-      <NavMenu />
+      <div><NavMenu /></div>
+      
       <Row>
         {/* Basic Info and Contact */}
         <Col sm={4}>

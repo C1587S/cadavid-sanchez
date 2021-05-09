@@ -66,3 +66,14 @@
     color: black
   }
 }
+
+/* H Space after */
+.h_space {
+  margin-right: 1.5rem !important;
+  margin-top: 1rem !important;
+}
+
+/* V Space after */
+.mt-1 {
+  margin-top: 2rem !important;
+}

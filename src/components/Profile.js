@@ -3,8 +3,13 @@ import { Row, Col, Container } from 'react-bootstrap'
 import Image from 'react-bootstrap/Image'
 import photo from '../profile.jpg';
 import Card from 'react-bootstrap/Card'
+import '../App.css';
 
+import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+
+const style = { color: "gray", fontSize: "1.8em", justifyContent: 'space-between' }
 
 const Profile = ({size}) => {
     return(
@@ -15,9 +20,12 @@ const Profile = ({size}) => {
         <Card.Title>Sebastián Cadavid-Sánchez</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">MS in Data Science & MA in Economics</Card.Subtitle>
         <Card.Text className="text-center">
-        <FaLinkedin />
-        <FaGithub />
-        <FaTwitter />
+        <div>
+        <FaGithub style={style} className="h_space"/>
+        <FaTwitter style={style} className="h_space"/>
+        <FaLinkedin style={style} className="h_space"/>
+        <SiGmail style={style} className="h_space"/>
+        </div>
         </Card.Text>
     </Card.Body>
     </Card>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Navbar, Nav, NavDropdown } from 'react-bootstrap'
-import './NavBarHeader.css'
 const NavMenu = () => {
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -10,7 +9,7 @@ const NavMenu = () => {
             <Nav className="mr-auto">
             </Nav>
             <Nav>
-            <Nav.Link href="#deets">Research</Nav.Link>
+            <Nav.Link href="#research">Research</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Row, Col, Container } from 'react-bootstrap'
 
+import Research from './Research'
+
 function MainPanel() {
     return (
       <div className="App">
@@ -9,7 +11,7 @@ function MainPanel() {
             <h1>Research Interests</h1>
         </Row>
         <Row>
-            <h1>Research Papers</h1>
+            <Research />
         </Row>
         </Container>
       </div>

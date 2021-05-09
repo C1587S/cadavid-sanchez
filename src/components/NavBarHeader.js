@@ -9,6 +9,7 @@ const NavMenu = () => {
             <Nav className="mr-auto">
             </Nav>
             <Nav>
+            <Nav.Link href="#CV">CV</Nav.Link>
             <Nav.Link href="#research">Research</Nav.Link>
             </Nav>
         </Navbar.Collapse>

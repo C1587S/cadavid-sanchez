@@ -13,7 +13,7 @@ function Eco_CS18() {
       <p>
         <strong>Sebastián Cadavid-Sánchez </strong><i>(Centro de Estudios de Desarrollo Económico CEDE No. 60, Universidad de los Andes, 2018)</i>
       </p>
-      <p>
+      <p align="justify">
       This paper analyzes the Colombian economic context between 1990Q1-2016Q4, using a 
       Markov-Switching Dynamic Stochastic General Equilibrium Model (MS-DSGE) to identify 
       regime switches in the driven mechanisms of the economy. 

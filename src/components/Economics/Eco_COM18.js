@@ -13,7 +13,7 @@ function Eco_COM18() {
       <p>
         <strong>Sebastián Cadavid-Sánchez</strong>, André Martı́nez Fritscher, and A. Ortiz Bolaños <i>(Under revision:  Journal of Macroeconomics)</i>
       </p>
-      <p>
+      <p align="justify">
       This paper analyzes the role of fiscal and monetary policies in the determination of inflation and government debt 
       in Mexico during the 1981-2016 period. A Markov-switching DSGE model estimation allows us to identify five different 
       periods of fiscal and monetary policy interactions congruent with a historical account of the Mexican monetary and 

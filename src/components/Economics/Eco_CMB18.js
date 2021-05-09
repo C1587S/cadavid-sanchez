@@ -1,18 +1,13 @@
 // src/components/Eco_CS18.js
-
-import React from 'react'
-import './styling/Research.css';
-
-
 function Eco_CS18() {
   return (
     <div>
       <h2>
       <a href="https://repositorio.uniandes.edu.co/handle/1992/41059">  
-      Monetary policy and structural changes in Colombia, 1990-2016: A Markov Switching Approach
+      XMonetary policy and structural changes in Colombia, 1990-2016: A Markov Switching Approach
       </a> 
       </h2>
-      <p style="text-align:center;">
+      <p align="justify">
       This paper analyzes the Colombian economic context between 1990Q1-2014Q4, using a Markov-Switching Dynamic 
       Stochastic General Equilibrium Model (MS-DSGE) to identify regime switches in the driven mechanisms of the 
       economy. Bayesian methods are applied, allowing for changes in the monetary policy rule, nominal rigidities, 

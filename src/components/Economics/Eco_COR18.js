@@ -13,7 +13,7 @@ function Eco_COR18() {
       <p>
         <strong>Sebastián Cadavid-Sánchez</strong>, A. Ortiz Bolaños, and G. Kattan <i>(Monetary Policy and Financial Stabilityin Latin America and the Caribbean. Editorial CEMLA, 2018)</i>
         </p>
-      <p>
+      <p align="justify">
       Decreases (increases) in long-term interest rates caused by compressions (dilations) of term premiums could be 
       financially expansive (contractive) and might require monetary policy restraints (stimulus). This paper uses 
       measures of the term premium calculated by Adrian et al. (2013) to perform Bayesian estimations of a Markov-switching 

@@ -1,4 +1,4 @@
-// src/components/Eco_CS18.js
+// src/components/Eco_CS20.js
 
 import React from 'react'
 
@@ -10,10 +10,10 @@ function Eco_CO20() {
         Did the Introduction of Inflation Targeting Represent a Regime Switch of Monetary Policy in Latin America?
       </a> 
       </h2>
-      <p>
+      <p >
       <strong>Sebastián Cadavid-Sánchez</strong>, and A. Ortiz Bolaños <i>(Inflationary  Dynamics,  Persistence,  and  Prices  and Wages Formation.  Editorial CEMLA, 2020)</i>
       </p>
-      <p>
+      <p align="justify">
       In the 1990s, after experiencing high levels of inflation, several countries in Latin America passed constitutional 
       amendments providing greater autonomy to their central banks. A few years later, many central banks increased their 
       exchange rate flexibility and later adopted inflation targeting frameworks. These institutional changes coincided with 

@@ -9,7 +9,7 @@ function DS_ITAM() {
         <p>
             Along with Adolfo de Unánue, Liliana Millán, Paola Mejía, and Elizabeth Rodriguez
         </p>
-      <p>
+      <p align="justify">
       Early Warning System to identify undergraduate ITAM students in scholar vulnerability in the next
       two years. In particular, we used metrics based on assistive or punitive actions to optimize the 
       models, performed temporal cross-validation, and used existing methodologies for analyzing algorithmic 

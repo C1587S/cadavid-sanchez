@@ -9,7 +9,7 @@ function DS_CMR() {
         <p>
             Along with Mauricio Romero and Paola Mejía
         </p>
-      <p>
+      <p align="justify">
       Research  assistance  to  generate  school  markets  to  understand  the  migration  mechanisms  
       of  stu-dents  among  institutions.   Responsabilities  included:  constructing  andvalidating  
       master  databasecontaining geographical information about nearly 230,000 Mexican schools With this 

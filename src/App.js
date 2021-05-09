@@ -6,6 +6,7 @@ import { Row, Col, Container } from 'react-bootstrap'
 
 import MainPanel from './components/Main.js'
 import NavMenu from './components/NavBarHeader'
+import Profile from './components/Profile'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <NavMenu />
       <Row>
         {/* Basic Info and Contact */}
-        <Col sm={4}>sm=4s 
+        <Col sm={4}>
+        <Profile />
         </Col>
         {/* Main Panel */}
         <Col sm={8}> 

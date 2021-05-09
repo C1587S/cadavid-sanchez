@@ -3,15 +3,16 @@ import './App.css';
 import './components/Main.js'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Container } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 
 function App() {
   return (
     <div className="App">
-      <Container>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <Container fluid>
+      <Row>
+        <Col sm={4}>sm=4</Col>
+        <Col sm={8}>sm=8</Col>
+      </Row>
       </Container>
     </div>
   );

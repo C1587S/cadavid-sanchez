@@ -21,7 +21,7 @@ function App() {
         <Profile />
         </Col>
         {/* Main Panel */}
-        <Col sm={9}> 
+        <Col sm={7}> 
         <MainPanel />
         </Col>
       </Row>

@@ -17,6 +17,7 @@ function Research() {
       <br />
       <Row className="justify-content-center">
       {/* <DataScienceResearch /> */}
+      <div><h3>Economics</h3></div>
       <EconomicsResearch />
       </Row>
     </Container>

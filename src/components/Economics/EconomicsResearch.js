@@ -5,8 +5,8 @@ import Eco_CO20 from './Eco_CO20'
 import Eco_CS18 from './Eco_CS18'
 import Eco_COM18 from './Eco_COM18'
 import Eco_COR18 from './Eco_COR18'
-import { Row, Col, Container } from 'react-bootstrap'
 import Media from 'react-bootstrap/Media'
+
 function EconomicsResearch() {
   return (
     <ul className="list-unstyled">

@@ -3,16 +3,18 @@
 import React from 'react';
 import DataScienceResearch from './DataScience/DataScienceResearch';
 import EconomicsResearch from './Economics/EconomicsResearch';
+import { Row, Col, Container } from 'react-bootstrap'
 
 function Research() {
   return (
-    <div>
-      <h1 align="justify">Research Interests</h1>
-      <p>My research focuses on Computational Social Sciences for Economic and Social Development.</p>
-
+    <Container fluid>
+      <Row>
+      {/* <h1 align="justify">Research Interests</h1> */}
+      {/* <p>My research focuses on Computational Social Sciences for Economic and Social Development.</p> */}
       <DataScienceResearch />
       <EconomicsResearch />
-    </div>
+      </Row>
+    </Container>
   )
 }
 

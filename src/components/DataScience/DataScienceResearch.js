@@ -5,6 +5,8 @@ import DS_CMR from './DS_CMR'
 import DS_ITAM from './DS_ITAM'
 import Media from 'react-bootstrap/Media'
 import mini_schlmkt from '../../imgs/mini_school_markets_3.png';
+import itam20_mods from '../../imgs/itam20_mods.png';
+import itam20_rec from '../../imgs/itam20_rec.png';
 
 function DataScienceResearch() {
   return (
@@ -30,13 +32,24 @@ function DataScienceResearch() {
       </Media>
 
       <Media as="li">
+      <div>
         <img
-          width={64}
-          height={64}
+          width={160}
+          height={160}
           className="mr-3"
-          src="holder.js/64x64"
+          src={itam20_mods}
           alt="Generic placeholder"
         />
+        <br />
+        <br />
+        <img
+          width={140}
+          height={140}
+          className="mr-3"
+          src={itam20_rec}
+          alt="Generic placeholder"
+        />     
+        </div>
         <Media.Body>
           <h5>Early Warning System of Dropouts at Undergraduate Levels</h5>
           <p className="p_ind">

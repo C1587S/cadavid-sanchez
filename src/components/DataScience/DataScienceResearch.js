@@ -11,8 +11,8 @@ function DataScienceResearch() {
     <ul className="list-unstyled">
       <Media as="li">
         <img
-          width={120}
-          height={120}
+          width={160}
+          height={160}
           className="mr-3"
           src={mini_schlmkt}
           alt="Generic placeholder"

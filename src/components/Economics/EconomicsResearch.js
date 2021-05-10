@@ -9,9 +9,13 @@ import Media from 'react-bootstrap/Media'
 import co20_img_front from '../../imgs/co20_img_front.png';
 import co20_img_int from '../../imgs/co20_img_int.png';
 import cs18_img_front from '../../imgs/cs18_img_front.png';
+import cs18_img_front_w from '../../imgs/cs18_img_front_w.png';
+import cs18_img_front_alt from '../../imgs/cs18_img_front_alt.png';
 import cs18_img_irfs from '../../imgs/cs18_img_irfs.png';
 import com18_img_srs from '../../imgs/com18_img_srs.png';
 import com18_img_cfs from '../../imgs/com18_img_cfs.png';
+import cor18_img_front from '../../imgs/cor18_img_front.png';
+import cor18_img_srs from '../../imgs/cor18_img_srs.png';
 
 function EconomicsResearch() {
   return (
@@ -19,7 +23,7 @@ function EconomicsResearch() {
       <Media as="li">
       <div>
         <img
-          width={120}
+          width={140}
           height={210}
           className="mr-3"
           src={co20_img_front}
@@ -59,10 +63,10 @@ function EconomicsResearch() {
       <Media as="li">
         <div>
         <img
-          width={120}
+          width={140}
           height={210}
           className="mr-3"
-          src={cs18_img_front}
+          src={cs18_img_front_alt}
           alt="Generic placeholder"
         />
         <br />
@@ -103,7 +107,7 @@ function EconomicsResearch() {
           width={160}
           height={160}
           className="mr-3"
-          src={com18_img_srs}
+          src={}
           alt="Generic placeholder"
         />
         <br />
@@ -111,7 +115,7 @@ function EconomicsResearch() {
           width={160}
           height={160}
           className="mr-3"
-          src={com18_img_cfs}
+          src={}
           alt="Generic placeholder"
         />
         </div> */}
@@ -132,13 +136,24 @@ function EconomicsResearch() {
       </Media>
 
       <Media as="li">
+      <div>
         <img
-          width={64}
-          height={64}
+          width={140}
+          height={210}
           className="mr-3"
-          src="holder.js/64x64"
+          src={cor18_img_front}
           alt="Generic placeholder"
         />
+        <br />
+        <br />
+        <img
+          width={160}
+          height={160}
+          className="mr-3"
+          src={cor18_img_srs}
+          alt="Generic placeholder"
+        />     
+        </div>
         <Media.Body>
           <h5>Targeting Long-term Rates in a Model with Financial Frictions and Regime Switching</h5>
           <p className="p_ind">

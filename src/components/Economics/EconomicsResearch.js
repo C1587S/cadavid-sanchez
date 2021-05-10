@@ -6,6 +6,8 @@ import Eco_CS18 from './Eco_CS18'
 import Eco_COM18 from './Eco_COM18'
 import Eco_COR18 from './Eco_COR18'
 import Media from 'react-bootstrap/Media'
+import cs18_img_front from '../../imgs/cs18_img_front.png';
+import cs18_img_irfs from '../../imgs/cs18_img_irfs.png';
 
 function EconomicsResearch() {
   return (
@@ -40,13 +42,24 @@ function EconomicsResearch() {
       </Media>
 
       <Media as="li">
+        <div>
         <img
-          width={64}
-          height={64}
+          width={120}
+          height={200}
           className="mr-3"
-          src="holder.js/64x64"
+          src={cs18_img_front}
           alt="Generic placeholder"
         />
+        <br />
+        <br />
+        <img
+          width={120}
+          height={170}
+          className="mr-3"
+          src={cs18_img_irfs}
+          alt="Generic placeholder"
+        />     
+        </div>
         <Media.Body>
           <h5>Monetary Policy and Structural Changes in Colombia: A Markov Switching Approach</h5>
           <p className="p_ind">

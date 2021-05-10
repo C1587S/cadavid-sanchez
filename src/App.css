@@ -88,12 +88,16 @@ Container
 }
 
 p {
-  text-align: justify;
+  text-align: left;
 }
 
 .p_ind {
-  text-indent: 50px;
+  text-indent: 20px;
   text-align: justify;
+}
+
+h1 {
+  text-align: left;
 }
 
 h2 {
@@ -108,4 +112,43 @@ h3 {
 h5 {
   text-align: left;
   font-weight: bold;
+}
+
+/* section headers */
+
+.colored_heading_h1 {
+  color: #16213e;
+}
+
+.colored_heading_h2 {
+  color: #151965;
+}
+
+.colored_heading_h3 {
+  color: #0f4c75;
+}
+
+.colored_heading_h5 {
+  color: #3282b8;
+}
+
+a {
+  color: #3282b8;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:link {
+  color: #3282b8;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #3282b8;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: #3282b8;
+  background-color: transparent;
+  text-decoration: none;
 }

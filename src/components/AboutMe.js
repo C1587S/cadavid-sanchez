@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card'
 function AboutMe() {
   return (
     <div>
-        <h2>About me</h2>
+        <h1 class="colored_heading_h1">About me</h1>
         <p>
         Currently student at the MS program in Data Science at ITAM. Before,
         I studied a MA and BA in Economics at Universidad de los Andes.

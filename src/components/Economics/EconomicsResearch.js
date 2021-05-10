@@ -40,7 +40,8 @@ function EconomicsResearch() {
         />     
         </div>
         <Media.Body>
-          <h5>Did the Introduction of Inflation Targeting Represent a Regime Switch of Monetary Policy in Latin America?</h5>
+          <br />
+          <h5 class="colored_heading_h5">Did the Introduction of Inflation Targeting Represent a Regime Switch of Monetary Policy in Latin America?</h5>
           <p className="p_ind">
           In the 1990s, after experiencing high levels of inflation, several countries in Latin America passed constitutional 
           amendments providing greater autonomy to their central banks. A few years later, many central banks increased their 
@@ -80,7 +81,8 @@ function EconomicsResearch() {
         />     
         </div>
         <Media.Body>
-          <h5>Monetary Policy and Structural Changes in Colombia: A Markov Switching Approach</h5>
+          <br />
+          <h5 class="colored_heading_h5">Monetary Policy and Structural Changes in Colombia: A Markov Switching Approach</h5>
           <p className="p_ind">
           This paper analyzes the Colombian economic context between 1990Q1-2016Q4, using a 
           Markov-Switching Dynamic Stochastic General Equilibrium Model (MS-DSGE) to identify 
@@ -121,7 +123,8 @@ function EconomicsResearch() {
         </div> */}
 
         <Media.Body>
-          <h5>Monetary and Fiscal Policy Interactions in Mexico, 1981-2016</h5>
+          <br />
+          <h5 class="colored_heading_h5">Monetary and Fiscal Policy Interactions in Mexico, 1981-2016</h5>
           <p className="p_ind">
           This paper analyzes the role of fiscal and monetary policies in the determination of inflation and government debt 
       in Mexico during the 1981-2016 period. A Markov-switching DSGE model estimation allows us to identify five different 
@@ -155,7 +158,7 @@ function EconomicsResearch() {
         />     
         </div>
         <Media.Body>
-          <h5>Targeting Long-term Rates in a Model with Financial Frictions and Regime Switching</h5>
+          <h5 class="colored_heading_h5">Targeting Long-term Rates in a Model with Financial Frictions and Regime Switching</h5>
           <p className="p_ind">
           Decreases (increases) in long-term interest rates caused by compressions (dilations) of term premiums could be 
       financially expansive (contractive) and might require monetary policy restraints (stimulus). This paper uses 

@@ -20,7 +20,7 @@ function DataScienceResearch() {
           alt="Generic placeholder"
         />
         <Media.Body>
-          <h5>Community Detection for finding School Markets in Mexico</h5>
+          <h5 class="colored_heading_h5">Community Detection for finding School Markets in Mexico</h5>
           <p className="p_ind">
           Research  assistance  to  generate  school  markets  to  understand  the  migration  mechanisms  
           of  stu-dents  among  institutions.   Responsabilities  included:  constructing  andvalidating  
@@ -51,7 +51,7 @@ function DataScienceResearch() {
         />     
         </div>
         <Media.Body>
-          <h5>Early Warning System of Dropouts at Undergraduate Levels</h5>
+          <h5 class="colored_heading_h5">Early Warning System of Dropouts at Undergraduate Levels</h5>
           <p className="p_ind">
           Research  assistance  to  generate  school  markets  to  understand  the  migration  mechanisms  
           of  students  among  institutions.   Responsabilities  included:  constructing  andvalidating  

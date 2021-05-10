@@ -48,9 +48,7 @@ function EconomicsResearch() {
           alt="Generic placeholder"
         />
         <Media.Body>
-          <h5>
-          Monetary Policy and Structural Changes in Colombia: A Markov Switching Approach
-          </h5>
+          <h5>Monetary Policy and Structural Changes in Colombia: A Markov Switching Approach</h5>
           <p className="p_ind">
           This paper analyzes the Colombian economic context between 1990Q1-2016Q4, using a 
           Markov-Switching Dynamic Stochastic General Equilibrium Model (MS-DSGE) to identify 

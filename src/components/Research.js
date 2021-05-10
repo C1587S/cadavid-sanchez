@@ -11,12 +11,11 @@ function Research() {
   return (
     <Container fluid>
       <br />
-      <div>
-        <h2>Research</h2>
-      </div>
+      <div><h2>Research</h2></div>
       <br />
       <Row className="justify-content-center">
-      {/* <DataScienceResearch /> */}
+      <div><h3>Data Science</h3></div>
+      <DataScienceResearch />
       <div><h3>Economics</h3></div>
       <EconomicsResearch />
       </Row>

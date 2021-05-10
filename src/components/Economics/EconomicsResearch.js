@@ -6,20 +6,35 @@ import Eco_CS18 from './Eco_CS18'
 import Eco_COM18 from './Eco_COM18'
 import Eco_COR18 from './Eco_COR18'
 import Media from 'react-bootstrap/Media'
+import co20_img_front from '../../imgs/co20_img_front.png';
+import co20_img_int from '../../imgs/co20_img_int.png';
 import cs18_img_front from '../../imgs/cs18_img_front.png';
 import cs18_img_irfs from '../../imgs/cs18_img_irfs.png';
+import com18_img_srs from '../../imgs/com18_img_srs.png';
+import com18_img_cfs from '../../imgs/com18_img_cfs.png';
 
 function EconomicsResearch() {
   return (
     <ul className="list-unstyled">
       <Media as="li">
+      <div>
         <img
-          width={64}
-          height={64}
+          width={120}
+          height={210}
           className="mr-3"
-          src="holder.js/64x64"
+          src={co20_img_front}
           alt="Generic placeholder"
         />
+        <br />
+        <br />
+        <img
+          width={160}
+          height={160}
+          className="mr-3"
+          src={co20_img_int}
+          alt="Generic placeholder"
+        />     
+        </div>
         <Media.Body>
           <h5>Did the Introduction of Inflation Targeting Represent a Regime Switch of Monetary Policy in Latin America?</h5>
           <p className="p_ind">
@@ -45,7 +60,7 @@ function EconomicsResearch() {
         <div>
         <img
           width={120}
-          height={200}
+          height={210}
           className="mr-3"
           src={cs18_img_front}
           alt="Generic placeholder"
@@ -53,8 +68,8 @@ function EconomicsResearch() {
         <br />
         <br />
         <img
-          width={120}
-          height={170}
+          width={160}
+          height={160}
           className="mr-3"
           src={cs18_img_irfs}
           alt="Generic placeholder"
@@ -83,13 +98,24 @@ function EconomicsResearch() {
       </Media>
 
       <Media as="li">
+        {/* <div>
         <img
-          width={64}
-          height={64}
+          width={160}
+          height={160}
           className="mr-3"
-          src="holder.js/64x64"
+          src={com18_img_srs}
           alt="Generic placeholder"
         />
+        <br />
+        <img
+          width={160}
+          height={160}
+          className="mr-3"
+          src={com18_img_cfs}
+          alt="Generic placeholder"
+        />
+        </div> */}
+
         <Media.Body>
           <h5>Monetary and Fiscal Policy Interactions in Mexico, 1981-2016</h5>
           <p className="p_ind">

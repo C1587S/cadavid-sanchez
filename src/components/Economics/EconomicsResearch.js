@@ -41,13 +41,16 @@ function EconomicsResearch() {
         </div>
         <Media.Body>
           <br />
+          <a href="https://www.cemla.org/PDF/ic/2020-08-jrp-inflation-expectations/2020-08-jrp-inflation-expectations-11.pdf"> 
           <h5 class="colored_heading_h5">Did the Introduction of Inflation Targeting Represent a Regime Switch of Monetary Policy in Latin America?</h5>
+          </a>
+          
           <p className="p_ind">
           In the 1990s, after experiencing high levels of inflation, several countries in Latin America passed constitutional 
           amendments providing greater autonomy to their central banks. A few years later, many central banks increased their 
           exchange rate flexibility and later adopted inflation targeting frameworks. These institutional changes coincided with 
           sharp reductions in inflation and its variability. In this paper, we ask if the observed reduction of inflation is possibly 
-          related to changes in monetary policy. To answer this question, we build and estimate a Markov-Switching Dsge model for an 
+          related to changes in monetary policy. To answer this question, we build and estimate a Markov-Switching DSGE model for an 
           open economy with monetary factors for Brazil, Chile, Colombia, Mexico, and Peru, all of whom formally adopted inflation 
           targeting regimes between 1999 and 2002. Regimes are classified according to their relative weights of inflation in an 
           interest rate reaction function. Although ex-ante these regimes need not be associated with introducing the inflation-targeting 
@@ -82,7 +85,9 @@ function EconomicsResearch() {
         </div>
         <Media.Body>
           <br />
+          <a href="https://repositorio.uniandes.edu.co/handle/1992/41059">  
           <h5 class="colored_heading_h5">Monetary Policy and Structural Changes in Colombia: A Markov Switching Approach</h5>
+          </a>
           <p className="p_ind">
           This paper analyzes the Colombian economic context between 1990Q1-2016Q4, using a 
           Markov-Switching Dynamic Stochastic General Equilibrium Model (MS-DSGE) to identify 
@@ -124,7 +129,9 @@ function EconomicsResearch() {
 
         <Media.Body>
           <br />
+          <a href="https://albertoortiznet.files.wordpress.com/2018/03/monetary_and_fiscal_policies_interactions_in_mexico_1981_-_2016___march022018.pdf">  
           <h5 class="colored_heading_h5">Monetary and Fiscal Policy Interactions in Mexico, 1981-2016</h5>
+          </a>
           <p className="p_ind">
           This paper analyzes the role of fiscal and monetary policies in the determination of inflation and government debt 
       in Mexico during the 1981-2016 period. A Markov-switching DSGE model estimation allows us to identify five different 
@@ -158,7 +165,9 @@ function EconomicsResearch() {
         />     
         </div>
         <Media.Body>
+          <a href="https://ideas.repec.org/h/cml/incocp/5en-6.html">  
           <h5 class="colored_heading_h5">Targeting Long-term Rates in a Model with Financial Frictions and Regime Switching</h5>
+          </a>
           <p className="p_ind">
           Decreases (increases) in long-term interest rates caused by compressions (dilations) of term premiums could be 
       financially expansive (contractive) and might require monetary policy restraints (stimulus). This paper uses 

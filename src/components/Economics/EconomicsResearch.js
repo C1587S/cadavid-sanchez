@@ -23,8 +23,8 @@ function EconomicsResearch() {
       <Media as="li">
       <div>
         <img
-          width={140}
-          height={210}
+          width={120}
+          height={190}
           className="mr-3"
           src={co20_img_front}
           alt="Generic placeholder"
@@ -32,8 +32,8 @@ function EconomicsResearch() {
         <br />
         <br />
         <img
-          width={160}
-          height={160}
+          width={120}
+          height={120}
           className="mr-3"
           src={co20_img_int}
           alt="Generic placeholder"
@@ -63,8 +63,8 @@ function EconomicsResearch() {
       <Media as="li">
         <div>
         <img
-          width={140}
-          height={210}
+          width={120}
+          height={190}
           className="mr-3"
           src={cs18_img_front_alt}
           alt="Generic placeholder"
@@ -72,8 +72,8 @@ function EconomicsResearch() {
         <br />
         <br />
         <img
-          width={160}
-          height={160}
+          width={120}
+          height={120}
           className="mr-3"
           src={cs18_img_irfs}
           alt="Generic placeholder"
@@ -104,16 +104,16 @@ function EconomicsResearch() {
       <Media as="li">
         {/* <div>
         <img
-          width={160}
-          height={160}
+          width={120}
+          height={120}
           className="mr-3"
           src={}
           alt="Generic placeholder"
         />
         <br />
         <img
-          width={160}
-          height={160}
+          width={120}
+          height={120}
           className="mr-3"
           src={}
           alt="Generic placeholder"
@@ -138,8 +138,8 @@ function EconomicsResearch() {
       <Media as="li">
       <div>
         <img
-          width={140}
-          height={210}
+          width={120}
+          height={190}
           className="mr-3"
           src={cor18_img_front}
           alt="Generic placeholder"
@@ -147,8 +147,8 @@ function EconomicsResearch() {
         <br />
         <br />
         <img
-          width={160}
-          height={160}
+          width={120}
+          height={120}
           className="mr-3"
           src={cor18_img_srs}
           alt="Generic placeholder"

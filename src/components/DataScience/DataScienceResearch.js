@@ -13,8 +13,8 @@ function DataScienceResearch() {
     <ul className="list-unstyled">
       <Media as="li">
         <img
-          width={160}
-          height={160}
+          width={120}
+          height={120}
           className="mr-3"
           src={mini_schlmkt}
           alt="Generic placeholder"
@@ -34,8 +34,8 @@ function DataScienceResearch() {
       <Media as="li">
       <div>
         <img
-          width={160}
-          height={160}
+          width={120}
+          height={120}
           className="mr-3"
           src={itam20_mods}
           alt="Generic placeholder"
@@ -43,8 +43,8 @@ function DataScienceResearch() {
         <br />
         <br />
         <img
-          width={140}
-          height={140}
+          width={120}
+          height={120}
           className="mr-3"
           src={itam20_rec}
           alt="Generic placeholder"

@@ -4,16 +4,17 @@ import React from 'react'
 import DS_CMR from './DS_CMR'
 import DS_ITAM from './DS_ITAM'
 import Media from 'react-bootstrap/Media'
+import mini_schlmkt from '../../imgs/mini_school_markets_3.png';
 
 function DataScienceResearch() {
   return (
     <ul className="list-unstyled">
       <Media as="li">
         <img
-          width={64}
-          height={64}
+          width={120}
+          height={120}
           className="mr-3"
-          src="holder.js/64x64"
+          src={mini_schlmkt}
           alt="Generic placeholder"
         />
         <Media.Body>

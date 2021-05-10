@@ -11,7 +11,7 @@ function DS_CMR() {
         </p>
       <p align="justify">
       Research  assistance  to  generate  school  markets  to  understand  the  migration  mechanisms  
-      of  stu-dents  among  institutions.   Responsabilities  included:  constructing  andvalidating  
+      of  students  among  institutions.   Responsabilities  included:  constructing  andvalidating  
       master  databasecontaining geographical information about nearly 230,000 Mexican schools With this 
       database, wegenerated spatial geometry analysis to construct commuting zones. Using graph algorithms,  
       we detected communities by utilizing bidirectional migration data of more than one million students.

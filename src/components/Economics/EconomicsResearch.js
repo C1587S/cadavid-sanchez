@@ -42,7 +42,7 @@ function EconomicsResearch() {
         </div>
         <Media.Body>
           <br />
-          <a href="https://www.cemla.org/PDF/ic/2020-08-jrp-inflation-expectations/2020-08-jrp-inflation-expectations-11.pdf"> 
+          <a href="https://www.cemla.org/PDF/ic/2020-08-jrp-inflation-expectations/2020-08-jrp-inflation-expectations-11.pdf" target="_blank"> 
           <h5 class="colored_heading_h5">Did the Introduction of Inflation Targeting Represent a Regime Switch of Monetary Policy in Latin America?</h5>
           </a>
           
@@ -87,7 +87,7 @@ function EconomicsResearch() {
         </div>
         <Media.Body>
           <br />
-          <a href="https://repositorio.uniandes.edu.co/handle/1992/41059">  
+          <a href="https://repositorio.uniandes.edu.co/handle/1992/41059" target="_blank">  
           <h5 class="colored_heading_h5">Monetary Policy and Structural Changes in Colombia: A Markov Switching Approach</h5>
           </a>
           <p className="p_ind">
@@ -131,7 +131,7 @@ function EconomicsResearch() {
         />     
         </div>
         <Media.Body>
-          <a href="https://ideas.repec.org/h/cml/incocp/5en-6.html">  
+          <a href="https://ideas.repec.org/h/cml/incocp/5en-6.html" target="_blank">  
           <h5 class="colored_heading_h5">Targeting Long-term Rates in a Model with Financial Frictions and Regime Switching</h5>
           </a>
           <p className="p_ind">
@@ -183,7 +183,7 @@ function EconomicsResearch() {
 
         <Media.Body>
           <br />
-          <a href="https://albertoortiznet.files.wordpress.com/2018/03/monetary_and_fiscal_policies_interactions_in_mexico_1981_-_2016___march022018.pdf">  
+          <a href="https://albertoortiznet.files.wordpress.com/2018/03/monetary_and_fiscal_policies_interactions_in_mexico_1981_-_2016___march022018.pdf" target="_blank">  
           <h5 class="colored_heading_h5">Monetary and Fiscal Policy Interactions in Mexico, 1981-2016</h5>
           </a>
           <p className="p_ind">

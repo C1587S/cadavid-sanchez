@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/scs-webpage/static/media/profile.2a22c2f2.jpg"
   },
   {
-    "revision": "a637f482642494ef7820868383c83b4f",
+    "revision": "378e93e54c4a162b604f1326d3a3ad33",
     "url": "/scs-webpage/index.html"
   }
 ];

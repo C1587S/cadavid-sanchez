@@ -39,7 +39,7 @@
   }
 }
 
-Container
+/* Container */
 /* Small devices */
 @media (min-width: 768px){
   .container {
@@ -77,7 +77,7 @@ Container
 
 /* V Space after */
 .mt-1 {
-  margin-top: 20rem !important;
+  margin-top: 2rem !important;
   margin-left: 3rem;
 }
 /* V Space before */

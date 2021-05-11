@@ -1,12 +1,13 @@
 import './App.css';
 
+import React, { Component }  from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Row, Col, Container } from 'react-bootstrap'
 
 import MainPanel from './components/Main.js'
 import NavMenu from './components/NavBarHeader'
 import Profile from './components/Profile'
-
 
 function App() {
   return (

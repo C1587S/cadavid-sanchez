@@ -1,8 +1,8 @@
 // src/components/DataScienceResearch.js
 
 import React from 'react'
-import DS_CMR from './DS_CMR'
-import DS_ITAM from './DS_ITAM'
+// import DS_CMR from './DS_CMR'
+// import DS_ITAM from './DS_ITAM'
 import Media from 'react-bootstrap/Media'
 import mini_schlmkt from '../../imgs/mini_school_markets_3.png';
 import itam20_mods from '../../imgs/itam20_mods.png';

@@ -3,8 +3,7 @@
 import React from 'react';
 import DataScienceResearch from './DataScience/DataScienceResearch';
 import EconomicsResearch from './Economics/EconomicsResearch';
-import { Row, Col, Container } from 'react-bootstrap'
-import Card from 'react-bootstrap/Card'
+import { Row, Container } from 'react-bootstrap'
 
 
 function Research() {

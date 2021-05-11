@@ -1,8 +1,6 @@
 // src/components/AboutMe.js
 
 import React from 'react';
-import Card from 'react-bootstrap/Card'
-
 
 function AboutMe() {
   return (

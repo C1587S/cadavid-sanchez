@@ -1,7 +1,6 @@
 import React from 'react'
-import { Button, Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import CV from "../pdfs/SCS_CV.pdf"
-import Research from "./Research.js"
 
 const NavMenu = () => {
     return(

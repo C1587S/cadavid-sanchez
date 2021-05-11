@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Navbar, Nav, NavDropdown } from 'react-bootstrap'
 const NavMenu = () => {
     return(
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar className="mt-2" collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand href="#home">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

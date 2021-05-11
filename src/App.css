@@ -77,7 +77,14 @@ Container
 
 /* V Space after */
 .mt-1 {
-  margin-top: 2rem !important;
+  margin-top: 20rem !important;
+  margin-left: 3rem;
+}
+/* V Space before */
+.mt-2 {
+  margin-bottom: 2rem !important;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .centered {

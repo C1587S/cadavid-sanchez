@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button, Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import CV from "../pdfs/SCS_CV.pdf"
+
 const NavMenu = () => {
     return(
         <Navbar className="mt-2" collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -9,8 +11,8 @@ const NavMenu = () => {
             <Nav>
             </Nav>
             <Nav>
-            <Nav.Link href="#CV">CV</Nav.Link>
-            <Nav.Link href="#research">Research</Nav.Link>
+            <Nav.Link href={CV} target = "_blank">CV</Nav.Link>
+            <Nav.Link href="/research">Research</Nav.Link>
             </Nav>
         </Navbar.Collapse>
         </Navbar>

@@ -12,7 +12,7 @@ function MainPanel() {
             <AboutMe />
         </Row>
         <Row>
-            <Research />
+        <div id="research"><Research /></div>
         </Row>
         </Container>
       </div>

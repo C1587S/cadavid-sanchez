@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/C1587S/scs-webpage",
+  "homepage": "https://C1587S.github.io/scs-webpage/",
   "name": "scs-webpage",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,7 @@
     "react-icons": "^4.2.0",
     "react-native": "^0.64.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^2.1.8",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -43,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

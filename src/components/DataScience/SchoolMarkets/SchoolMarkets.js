@@ -1,19 +1,20 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button'
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
+import {GoFileCode} from "react-icons/go";
+import Iframe from 'react-iframe'
+import MathJax from 'react-mathjax';
 import ReactMarkdown from 'react-markdown';
+import Table from 'react-bootstrap/Table'
+
+import header from "./imgs/sm_header2.png"
 import intro from "./intro.md"
 import methodology from "./methodology.md"
 import summary from "./summary.md"
-import Header from "./imgs/sm_header2.png"
-import Iframe from 'react-iframe'
-import Button from 'react-bootstrap/Button'
-import Table from 'react-bootstrap/Table'
-import { GoFileCode } from "react-icons/go";
-import MathJax from 'react-mathjax';
-// import { WebView } from 'react-native-webview'; 
-// const PolicyHTML = require('./html/map_commuting_zones.html');
 
+// Icon options
 const style = { color: "gray", fontSize: "0.7em", justifyContent: 'space-between' }
+// Formula
 const WeightFormula = `weight_{i, j} = \\frac{\\Delta_\\text{i to j} + \\Delta_\\text{j to i}}{\\nabla_i + \\nabla_j}`;
 
 class SchoolMarketsP extends React.Component { 
@@ -41,7 +42,7 @@ class SchoolMarketsP extends React.Component {
     }
 
     render = () => <div className = "fullwidth landing-right" style = {{height: "100%!important"}}>
-    <Jumbotron fluid style = {{width:"100%", height:"30vh", backgroundImage: `url(${Header})`, backgroundPosition: "center", opacity:0.6}}/>
+    <Jumbotron fluid style = {{width:"100%", height:"30vh", backgroundImage: `url(${header})`, backgroundPosition: "center", opacity:0.6}}/>
 
     <Container fluid  style={{ paddingLeft: "10vw", paddingRight: "10vw", paddingBottom: "15vh"}}>
     
@@ -91,9 +92,7 @@ class SchoolMarketsP extends React.Component {
     </p>
     <div class="centerH">
         {/* Commuting zones in a map */}
-        {/* <div dangerouslySetInnerHTML={{ __html: "../map_commuting_zones.html"}} /> */}
         <Iframe url="https://webpagecommz.s3.amazonaws.com/map_commuting_zones.html"
-        
             width="80%px"
             height="400px"
             id="geometries"
@@ -150,8 +149,8 @@ class SchoolMarketsP extends React.Component {
 
     <MathJax.Provider>
     <div><p> 
-        Where  <MathJax.Node inline formula={`\\nabla_i`}/> and <MathJax.Node inline formula={`\\nabla_j`}/> denote total outsiders for schools <i>i</i>, and <i>j</i>, respectively.  
-         <MathJax.Node inline formula={`\\Delta_\\text{i to j}`}/> and <MathJax.Node inline formula={`\\Delta_\\text{j to i}`}/> are the student flow from <i>j</i> to <i>i</i>, and from <i>i</i> to <i>j</i>, respectively.
+        Where  <MathJax.Node inline formula={`\\nabla_i`}/> and <MathJax.Node inline formula={`\\nabla_j`}/> denote total outsiders for schools <i>i</i>, and <i>j</i>, respectively. &nbsp;
+        <MathJax.Node inline formula={`\\Delta_\\text{i to j}`}/> and <MathJax.Node inline formula={`\\Delta_\\text{j to i}`}/> are the student flow from <i>j</i> to <i>i</i>, and from <i>i</i> to <i>j</i>, respectively.
     </p></div>
     </MathJax.Provider>
 
@@ -169,7 +168,7 @@ class SchoolMarketsP extends React.Component {
     Once each algorithm identifies communities, we compare their modularity. The algorithm with the higher metric in most cases is selected for identifying SMs (as the higher the modularity, the stronger the division of a network into communities).  In both primary and high school levels, the higher metric was obtained by <i>fast greedy</i>.  Additionally, the metrics were compared using the baseline case for CZ, and for all cases, stronger modularities were obtained by using geometric CZs. 
     </p>
 
-    <p style = {{paddingTop: "2vh", display: "inline-block"}}>
+    <p style = {{paddingTop: "1vh", display: "inline-block"}}>
     The map below presents the communities detected by the <i>fast greedy</i> algorithm for the 4,500 schools example mentioned earlier. The obtained modularity is 0.72.
     </p>
 

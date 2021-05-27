@@ -9,9 +9,9 @@ import Iframe from 'react-iframe'
 import Button from 'react-bootstrap/Button'
 import Table from 'react-bootstrap/Table'
 import { GoFileCode } from "react-icons/go";
-
-// import react-mathjax
 import MathJax from 'react-mathjax';
+// import { WebView } from 'react-native-webview'; 
+// const PolicyHTML = require('./html/map_commuting_zones.html');
 
 const style = { color: "gray", fontSize: "0.7em", justifyContent: 'space-between' }
 const WeightFormula = `weight_{i, j} = \\frac{\\Delta_\\text{i to j} + \\Delta_\\text{j to i}}{\\nabla_i + \\nabla_j}`;
@@ -71,8 +71,7 @@ class SchoolMarketsP extends React.Component {
         </Col>
         <Col>
         <div class="centerH">
-        {/* <Image src={buffers_example} rounded /> */}
-        <Iframe url="//webpageuns.s3-website-us-east-1.amazonaws.com/"
+        <Iframe url="https://webpageuns.s3.amazonaws.com/map_uns_geom_X.html"
         
             width="80%px"
             height="280px"
@@ -92,7 +91,8 @@ class SchoolMarketsP extends React.Component {
     </p>
     <div class="centerH">
         {/* Commuting zones in a map */}
-        <Iframe url="//webpagecommz.s3-website-us-east-1.amazonaws.com"
+        {/* <div dangerouslySetInnerHTML={{ __html: "../map_commuting_zones.html"}} /> */}
+        <Iframe url="https://webpagecommz.s3.amazonaws.com/map_commuting_zones.html"
         
             width="80%px"
             height="400px"
@@ -175,7 +175,7 @@ class SchoolMarketsP extends React.Component {
 
     <div class="centerH">
         {/* Communities example*/}
-        <Iframe url="//webpagegraphs.s3-website-us-east-1.amazonaws.com/"
+        <Iframe url="https://webpagegraphs.s3.amazonaws.com/map_communities.html"
         
             width="80%px"
             height="400px"

@@ -1,8 +1,6 @@
 // src/components/DataScienceResearch.js
 
 import React from 'react'
-// import DS_CMR from './DS_CMR'
-// import DS_ITAM from './DS_ITAM'
 import Media from 'react-bootstrap/Media'
 import mini_schlmkt from '../../imgs/mini_school_markets_3.png';
 import itam20_mods from '../../imgs/itam20_mods.png';
@@ -20,7 +18,9 @@ function DataScienceResearch() {
           alt="Generic placeholder"
         />
         <Media.Body>
-          <h5 class="colored_heading_h5">Community Detection for Identifying School Markets in Mexico</h5>
+          <a href="#research/school_markets"> 
+          <h5 class="colored_heading_h5">Schooling Markets in Mexico</h5>
+          </a>
           <p className="p_ind">
           Research  assistance  to  generate  school  markets  to  understand  the  migration  mechanisms  
           of  stu-dents  among  institutions.   Responsabilities  included:  constructing  andvalidating  
@@ -33,6 +33,7 @@ function DataScienceResearch() {
 
       <Media as="li">
       <div>
+      <br />
         <img
           width={120}
           height={120}
@@ -51,6 +52,7 @@ function DataScienceResearch() {
         />     
         </div>
         <Media.Body>
+        <br />
           <h5 class="colored_heading_h5">Early Warning System of Dropouts at Undergraduate Levels</h5>
           <p className="p_ind">
           Research  assistance  to  generate  school  markets  to  understand  the  migration  mechanisms  

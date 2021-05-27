@@ -1,33 +1,21 @@
 import './App.css';
+import React from 'react';
 
-import React, { Component }  from 'react';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { Row, Col, Container } from 'react-bootstrap'
+import Home from './components/Home.js'
+import CV from "./pdfs/SCS_CV.pdf"
 
-import MainPanel from './components/Main.js'
-import NavMenu from './components/NavBarHeader'
-import Profile from './components/Profile'
+import SchoolMarketsP from './components/DataScience/SchoolMarkets/SchoolMarkets.js'
 
-function App() {
-  return (
-    <div className="App">
-      <Container fluid>
-      <div><NavMenu /></div>
-      
-      <Row>
-        {/* Basic Info and Contact */}
-        <Col sm={3}>
-        <Profile />
-        </Col>
-        {/* Main Panel */}
-        <Col sm={7}> 
-        <MainPanel />
-        </Col>
-      </Row>
-      </Container>
-    </div>
-  );
-}
 
+const App = () => { 
+  return <Router>
+      <Route exact path='/'               component={Home}/>
+      {/* <Route exact path='/CV'            component={CV}/> */}
+      <Route exact path='/research/school_markets' component={SchoolMarketsP}/>
+      {/* <Route exact path='/research/covid' component={Covid}/> */}
+      <Route exact path='/CV'><a href={CV}/></Route>
+  </Router>
+} 
 export default App;

@@ -159,3 +159,16 @@ a:active {
   background-color: transparent;
   text-decoration: none;
 }
+
+.centerH {
+  text-align: center;
+  }
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }

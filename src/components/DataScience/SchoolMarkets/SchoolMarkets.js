@@ -47,7 +47,6 @@ class SchoolMarketsP extends React.Component {
     
     <div id="left"><Button href="#/" variant="outline-dark">Home</Button></div>
     <br></br>
-    {/* <Breadcrumb crumbs={["home", "research"]}/> */}
     <h1>Schooling Markets in Mexico <a href="https://github.com/C1587S/school_markets_dsp"><GoFileCode style={style} className="h_space"/></a></h1>
     <br/>
     {this.content("summary")}
@@ -73,7 +72,7 @@ class SchoolMarketsP extends React.Component {
         <Col>
         <div class="centerH">
         {/* <Image src={buffers_example} rounded /> */}
-        <Iframe url="http://webpageuns.s3-website-us-east-1.amazonaws.com/"
+        <Iframe url="//webpageuns.s3-website-us-east-1.amazonaws.com/"
         
             width="80%px"
             height="280px"
@@ -93,7 +92,7 @@ class SchoolMarketsP extends React.Component {
     </p>
     <div class="centerH">
         {/* Commuting zones in a map */}
-        <Iframe url="http://webpagecommz.s3-website-us-east-1.amazonaws.com"
+        <Iframe url="//webpagecommz.s3-website-us-east-1.amazonaws.com"
         
             width="80%px"
             height="400px"
@@ -176,7 +175,7 @@ class SchoolMarketsP extends React.Component {
 
     <div class="centerH">
         {/* Communities example*/}
-        <Iframe url="http://webpagegraphs.s3-website-us-east-1.amazonaws.com/"
+        <Iframe url="//webpagegraphs.s3-website-us-east-1.amazonaws.com/"
         
             width="80%px"
             height="400px"

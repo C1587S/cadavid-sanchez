@@ -39,36 +39,6 @@
   }
 }
 
-/* Container */
-/* Small devices */
-@media (min-width: 768px){
-  .container {
-    background-color: azure;
-    color: black
-  }
-}
-/* Medium devices */
-@media (min-width: 768px){
-  .container {
-    background-color: azure;
-    color: black
-  }
-}
-/* Larger devices */
-@media (min-width: 992px){
-  .container {
-    background-color: azure;
-    color: black
-  }
-}
-/* Extra larger devices */
-@media (min-width: 1100px){
-  .container {
-    background-color: azure;
-    color: black
-  }
-}
-
 /* H Space after */
 .h_space {
   margin-right: 1.5rem !important;
@@ -84,7 +54,7 @@
 .mt-2 {
   margin-bottom: 2rem !important;
   margin-left: 3rem;
-  margin-right: 15rem;
+  margin-right: 3rem;
 }
 
 .centered {

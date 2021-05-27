@@ -12,9 +12,7 @@ import SchoolMarketsP from './components/DataScience/SchoolMarkets/SchoolMarkets
 const App = () => { 
   return <Router>
       <Route exact path='/'               component={Home}/>
-      {/* <Route exact path='/CV'            component={CV}/> */}
       <Route exact path='/research/school_markets' component={SchoolMarketsP}/>
-      {/* <Route exact path='/research/covid' component={Covid}/> */}
       <Route exact path='/CV'><a href={CV}/></Route>
   </Router>
 } 

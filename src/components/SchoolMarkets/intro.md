@@ -4,3 +4,5 @@ In Schooling Markets (SM), education services are exchanged. The supply side is 
 
 However, SM identification is not a trivial task and could include different definitions and approaches. This work proposes a novel methodology for detecting school markets at elementary and high school levels using geospatial analysis for calculating _Commuting Zones_ (CZ), and graph algorithms for community detection using student migrations data in Mexico between 2006 and 2013. On this page, I will summarize the methodologies that we use to complete our goal. 
 
+
+

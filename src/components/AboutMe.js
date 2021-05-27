@@ -1,6 +1,7 @@
 // src/components/AboutMe.js
 
 import React from 'react';
+import { Row, Container } from 'react-bootstrap'
 
 function AboutMe() {
   return (

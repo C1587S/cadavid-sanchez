@@ -94,7 +94,7 @@ class SchoolMarketsP extends React.Component {
         {/* Commuting zones in a map */}
         <Iframe url="https://webpagecommz.s3.amazonaws.com/map_commuting_zones.html"
             width="80%px"
-            height="400px"
+            height="500px"
             id="geometries"
             className="myClassname"
             display="initial"
@@ -177,8 +177,8 @@ class SchoolMarketsP extends React.Component {
         <Iframe url="https://webpagegraphs.s3.amazonaws.com/map_communities.html"
         
             width="80%px"
-            height="400px"
-            id="geometries"
+            height="500px"
+            id="markets"
             className="myClassname"
             display="initial"
             position="center"/>

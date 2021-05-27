@@ -1,18 +1,11 @@
 // src/components/EconomicsResearch.js
 
 import React from 'react'
-// import Eco_CO20 from './Eco_CO20'
-// import Eco_CS18 from './Eco_CS18'
-// import Eco_COM18 from './Eco_COM18'
-// import Eco_COR18 from './Eco_COR18'
 import Media from 'react-bootstrap/Media'
 import co20_img_front from '../../imgs/co20_img_front.png';
 import co20_img_int from '../../imgs/co20_img_int.png';
-// import cs18_img_front from '../../imgs/cs18_img_front.png';
-// import cs18_img_front_w from '../../imgs/cs18_img_front_w.png';
 import cs18_img_front_alt from '../../imgs/cs18_img_front_alt.png';
 import cs18_img_irfs from '../../imgs/cs18_img_irfs.png';
-// import com18_img_srs from '../../imgs/com18_img_srs.png';
 import com18_img_cfs from '../../imgs/com18_img_cfs.png';
 import cor18_img_front from '../../imgs/cor18_img_front.png';
 import cor18_img_srs from '../../imgs/cor18_img_srs.png';

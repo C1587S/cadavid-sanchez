@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/scadavidsanchez/static/css/main.0b87f841.chunk.css",
-    "main.js": "/scadavidsanchez/static/js/main.afb179e4.chunk.js",
-    "main.js.map": "/scadavidsanchez/static/js/main.afb179e4.chunk.js.map",
-    "runtime-main.js": "/scadavidsanchez/static/js/runtime-main.a3f15f9f.js",
-    "runtime-main.js.map": "/scadavidsanchez/static/js/runtime-main.a3f15f9f.js.map",
+    "main.js": "/scadavidsanchez/static/js/main.5deaed29.chunk.js",
+    "main.js.map": "/scadavidsanchez/static/js/main.5deaed29.chunk.js.map",
+    "runtime-main.js": "/scadavidsanchez/static/js/runtime-main.e1b59159.js",
+    "runtime-main.js.map": "/scadavidsanchez/static/js/runtime-main.e1b59159.js.map",
     "static/css/2.74b270cf.chunk.css": "/scadavidsanchez/static/css/2.74b270cf.chunk.css",
-    "static/js/2.ec9687f0.chunk.js": "/scadavidsanchez/static/js/2.ec9687f0.chunk.js",
-    "static/js/2.ec9687f0.chunk.js.map": "/scadavidsanchez/static/js/2.ec9687f0.chunk.js.map",
-    "static/js/3.50242591.chunk.js": "/scadavidsanchez/static/js/3.50242591.chunk.js",
-    "static/js/3.50242591.chunk.js.map": "/scadavidsanchez/static/js/3.50242591.chunk.js.map",
+    "static/js/2.13704f67.chunk.js": "/scadavidsanchez/static/js/2.13704f67.chunk.js",
+    "static/js/2.13704f67.chunk.js.map": "/scadavidsanchez/static/js/2.13704f67.chunk.js.map",
+    "static/js/3.551bd0fe.chunk.js": "/scadavidsanchez/static/js/3.551bd0fe.chunk.js",
+    "static/js/3.551bd0fe.chunk.js.map": "/scadavidsanchez/static/js/3.551bd0fe.chunk.js.map",
     "index.html": "/scadavidsanchez/index.html",
     "static/css/2.74b270cf.chunk.css.map": "/scadavidsanchez/static/css/2.74b270cf.chunk.css.map",
     "static/css/main.0b87f841.chunk.css.map": "/scadavidsanchez/static/css/main.0b87f841.chunk.css.map",
-    "static/js/2.ec9687f0.chunk.js.LICENSE.txt": "/scadavidsanchez/static/js/2.ec9687f0.chunk.js.LICENSE.txt",
+    "static/js/2.13704f67.chunk.js.LICENSE.txt": "/scadavidsanchez/static/js/2.13704f67.chunk.js.LICENSE.txt",
     "static/media/SCS_CV.f8e0ae00.pdf": "/scadavidsanchez/static/media/SCS_CV.f8e0ae00.pdf",
     "static/media/co20_img_front.b573a807.png": "/scadavidsanchez/static/media/co20_img_front.b573a807.png",
     "static/media/co20_img_int.677be307.png": "/scadavidsanchez/static/media/co20_img_int.677be307.png",
@@ -25,17 +25,17 @@
     "static/media/intro.ba86169e.md": "/scadavidsanchez/static/media/intro.ba86169e.md",
     "static/media/itam20_mods.8a410fb1.png": "/scadavidsanchez/static/media/itam20_mods.8a410fb1.png",
     "static/media/itam20_rec.ae484e31.png": "/scadavidsanchez/static/media/itam20_rec.ae484e31.png",
-    "static/media/methodology.0a5e2b61.md": "/scadavidsanchez/static/media/methodology.0a5e2b61.md",
+    "static/media/methodology.cc38a2bf.md": "/scadavidsanchez/static/media/methodology.cc38a2bf.md",
     "static/media/mini_school_markets_3.9090d547.png": "/scadavidsanchez/static/media/mini_school_markets_3.9090d547.png",
     "static/media/profile.268caae7.jpg": "/scadavidsanchez/static/media/profile.268caae7.jpg",
     "static/media/sm_header2.f337990c.png": "/scadavidsanchez/static/media/sm_header2.f337990c.png",
     "static/media/summary.13bbd576.md": "/scadavidsanchez/static/media/summary.13bbd576.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3f15f9f.js",
+    "static/js/runtime-main.e1b59159.js",
     "static/css/2.74b270cf.chunk.css",
-    "static/js/2.ec9687f0.chunk.js",
+    "static/js/2.13704f67.chunk.js",
     "static/css/main.0b87f841.chunk.css",
-    "static/js/main.afb179e4.chunk.js"
+    "static/js/main.5deaed29.chunk.js"
   ]
 }

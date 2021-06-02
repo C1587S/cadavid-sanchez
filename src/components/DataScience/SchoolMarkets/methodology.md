@@ -1,6 +1,6 @@
 ## Methodology
 
-In our definition of the SM, academic institutions competing for students must be inside a CZ. Additionally, behavioral student data must support that some scholars switched between schools in the same market. In this section, we will explain how each element is calculated.
+In our definition of the SM, academic institutions competing for students must be inside a CZ. Additionally, behavioral student data must support that some students switched between schools in the same market. In this section, we will explain how each element is calculated.
 
 ### Data Sources
 
@@ -10,11 +10,11 @@ The data used for collecting administrative and geographic information of school
 
 ##### Students' Migration Data
 
-We collected information from scholars who switched schools (*switchers*) from data provided by the SEP on the [ENLACE](http://dgece.sev.gob.mx/difusion/resultadosenlace/) (Evaluación Nacional de Logros Académicos en Centros Escolares) standardized test between 2006 and 2013. In particular, each year, we can track in which academic institution a student takes the test and therefore infer how switched from schools during the analyzed years. We define students who changed schools as _switchers_.
+We collected information from students who switched schools (*switchers*) from data provided by the SEP on the [ENLACE](http://dgece.sev.gob.mx/difusion/resultadosenlace/) (Evaluación Nacional de Logros Académicos en Centros Escolares) standardized test between 2006 and 2013. In particular, each year, we can track in which academic institution a student takes the test and therefore infer how switched from schools during the analyzed years. We define students who changed schools as _switchers_.
 
 ### Commuting Zones: A Geometric Approach
 
-Students' migrations could occur not necessarily because of changes in parents' preferences for schools. Some migration dynamics could be explained by different factors, for example, families moving from their original city. For avoiding those mechanisms, before detecting school markets by themselves, we delimited geographic areas in which school markets could exist, *CZ*. Traditionally, topological approaches have been used for constructing CZ such as administrative territorial divisions. In this work, we use the 2,469 *municipios* of the Mexican territory as the baseline for building CZ and compare the results as described in the next section. 
+Students' migrations could occur not necessarily because of changes in parents' preferences for schools. Some migration dynamics could be explained by different factors, for example, families moving from their original city. For avoiding those mechanisms, before detecting school markets by themselves, we delimited geographic areas in which school markets could exist, *CZ*. Traditionally, topological approaches have been used for constructing CZ such as administrative territorial divisions. In this work, we use the 2,469 municipalities of the Mexican territory as the baseline for building CZ and compare the results as described in the next section. 
 
 
 
@@ -24,4 +24,4 @@ We followed a geometric approach for calculating CZ:
 2. Calculate the convex hull area associated with schools belonging to the same buffers (with three or more units)
 3. We calculate convex hull unions
 
-Finally, we define CZ as convex hull unions or buffers with less than three schools. In the following subsections, we will provide an illustrative example of the process.
+Finally, we define CZ as convex hull unions or buffers with less than three schools. In the following example there is an illustration of the process.

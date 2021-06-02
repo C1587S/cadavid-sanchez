@@ -86,8 +86,8 @@ class SchoolMarketsP extends React.Component {
     </Row>
     <br/>
     <p style = {{paddingTop: "2vh", display: "inline-block"}}>
-    Geometric approaches for defining CZ may exclude some dynamics of people who transit them daily and that this information could be contained in non-geographical data. In this sense, future Human validation (by potential members of each market) must be required to validate our results. 
-    In the map below, we include an example of 4500 mexican primary schools and their associated CZ. In the next section, we explain how SM is identified within each CZ by using graph algorithms for community detection.
+    Geometric approaches for defining CZ may exclude some dynamics of people who transit them daily. In this sense, future Human validation (by potential members of each market) must be required to validate our results. 
+    In the map below, there is an example of 4500 mexican primary schools and their associated CZ. In the next section details how SM is identified within each CZ by using graph algorithms for community detection.
 
     </p>
     <div class="centerH">
@@ -103,11 +103,11 @@ class SchoolMarketsP extends React.Component {
 
     <h2 style = {{paddingTop: "2vh", display: "inline-block"}}>Identifying Schooling Markets</h2>
     <p>
-    Within CZs, different SMs can be identified as many academic institutions could co-exist in the same geographic unit but may target students with diverse preferences. Identifying which institutions belong to the same market using supply-side data implies collecting information from recruitment departments from each school, which could be cumbersome, and, in some cases, information may not be available. However, it is possible to identify SM by using the behavioral data of students. In particular, analyzing their migrations from one school to another could help determine how common and strong links are between schools competing in the same market. Using this information, we apply graph algorithms for identifying SMs. This section will explain how graphs were constructed and which algorithms were used for community detection. 
+    Within CZs, different SMs can be identified as many academic institutions could co-exist in the same geographic unit but may target students with diverse preferences. Identifying which institutions belong to the same market using supply-side data implies collecting information from recruitment departments from each school, which could be cumbersome, and, in some cases, information may not be available. However, it is possible to identify SM by using the behavioral data of students. In particular, analyzing their migrations from one school to another could help determine how common and strong links are between schools competing in the same market. Using this information, we apply graph algorithms for identifying SMs. This section explains how graphs were constructed and which algorithms were used for community detection. 
     </p>
     <h2 style = {{paddingTop: "2vh", display: "inline-block"}}>Graphs</h2>
     <p>
-    To compute non-directed graphs inside CZs, we define nodes as schools and edges as students flow among schools. We utilized data from almost 2 million switchers (5%) for primary school and 3 million switchers for high school (6%). The registers were aggregated as in the following example:
+    To compute non-directed graphs inside CZs, we defined nodes as schools and edges as students flow among schools. We utilized data from almost 2 million switchers (5%) for primary school and 3 million switchers for high school (6%). The registers were aggregated as in the following example:
     </p>
 
     <Table striped bordered hover size="md">
@@ -142,7 +142,7 @@ class SchoolMarketsP extends React.Component {
         </tbody>
     </Table>
     <br/>
-    <p>Using the structure above, we are able to compute edge weights as follows:</p>
+    <p>Using the structure above, we compute edge weights as follows:</p>
     <MathJax.Provider>
     <div><p> <MathJax.Node Block formula={WeightFormula}/></p></div>
     </MathJax.Provider>

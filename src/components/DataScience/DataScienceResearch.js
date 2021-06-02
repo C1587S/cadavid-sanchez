@@ -23,7 +23,7 @@ function DataScienceResearch() {
           </a>
           <p className="p_ind">
           We proposed a methodology for identifying commuting zones and schooling markets in Mexico using geospatial analysis and graph algorithms for community detection. Public policy programs could use school markets to target interventions towards enhancing education quality through school competition mechanisms. 
-          This work was done with Mauricio Romero <a href="https://www.itam.mx/">(Instituto Tecnológico Autónomo de México) </a> and Paola Mejía <a href="https://www.epfl.ch/en/">(EPFL)</a>, at the Center for Economic Research <a href="http://cie.itam.mx/">(CIE) </a>.
+          This work was done with Mauricio Romero <a href="https://www.itam.mx/">(Instituto Tecnológico Autónomo de México) </a> and Paola Mejía <a href="https://www.epfl.ch/en/">(EPFL)</a>, at the Center for Economic Research <a href="http://cie.itam.mx/">(CIE)</a>.
           </p>
         </Media.Body>
       </Media>
@@ -51,12 +51,10 @@ function DataScienceResearch() {
         <Media.Body>
         <br />
           <h5 class="colored_heading_h5">Early Warning System of Dropouts at Undergraduate Levels</h5>
+          <p><i> Manuscript in preparation</i></p>
           <p className="p_ind">
-          Research  assistance  to  generate  school  markets  to  understand  the  migration  mechanisms  
-          of  students  among  institutions.   Responsabilities  included:  constructing  andvalidating  
-          master  databasecontaining geographical information about nearly 230,000 Mexican schools With this 
-          database, wegenerated spatial geometry analysis to construct commuting zones. Using graph algorithms,  
-          we detected communities by utilizing bidirectional migration data of more than one million students.
+          Using Machine Learning techniques and longitudinal data, we are developing an Early Warning System that identifies undergraduate students at high risk of abandoning their studies. Every semester, nearly 5% (about 250 students) of ITAM’s undergraduates abandon their studies. Not finishing their studies in the long term affects their economic productivity, workforce skills, and human capital formation. We compute predictions for the next two years to provide enough time for assistive interventions. We use metrics based on assistive actions to optimize the models, perform temporal cross-validation, and use existing methodologies based on randomized scores for analyzing algorithmic bias and fairness among student groups. We are currently performing exercises to provide senses of interpretability of our algorithms to decision-makers.
+          This work was done with Adolfo De Unánue, Liliana Millán, Paola Mejía, and Elizabeth Rodriguez, at the <a href="Center for Data Cience Research">Center for Data Cience Research</a> of ITAM.          
           </p>
         </Media.Body>
       </Media>

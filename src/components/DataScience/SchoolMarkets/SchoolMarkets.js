@@ -72,7 +72,7 @@ class SchoolMarketsP extends React.Component {
         </Col>
         <Col>
         <div class="centerH">
-        <Iframe url="https://webpageuns.s3.amazonaws.com/map_uns_geom_X.html"
+        <Iframe url="https://geometries-schoolmarkets.s3.amazonaws.com/sm_geoms.html"
         
             width="80%px"
             height="280px"

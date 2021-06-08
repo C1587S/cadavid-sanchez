@@ -92,7 +92,7 @@ class SchoolMarketsP extends React.Component {
     </p>
     <div class="centerH">
         {/* Commuting zones in a map */}
-        <Iframe url="https://webpagecommz.s3.amazonaws.com/map_commuting_zones.html"
+        <Iframe url="https://geometries-schoolmarkets.s3.amazonaws.com/sm_commuting_zones.html"
             width="80%px"
             height="500px"
             id="geometries"

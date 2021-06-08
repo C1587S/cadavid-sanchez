@@ -174,7 +174,7 @@ class SchoolMarketsP extends React.Component {
 
     <div class="centerH">
         {/* Communities example*/}
-        <Iframe url="https://webpagegraphs.s3.amazonaws.com/map_communities.html"
+        <Iframe url="https://geometries-schoolmarkets.s3.amazonaws.com/sm_communities.html"
         
             width="80%px"
             height="500px"

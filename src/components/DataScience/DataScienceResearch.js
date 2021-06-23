@@ -23,7 +23,7 @@ function DataScienceResearch() {
           </a>
           <p className="p_ind">
           We proposed a methodology for identifying commuting zones and schooling markets in Mexico using geospatial analysis and graph algorithms for community detection. Public policy programs could use school markets to target interventions towards enhancing education quality through school competition mechanisms. 
-          This work was done with Mauricio Romero <a href="https://www.itam.mx/">(Instituto Tecnológico Autónomo de México) </a> and Paola Mejía <a href="https://www.epfl.ch/en/">(EPFL)</a>, at the Center for Economic Research <a href="http://cie.itam.mx/">(CIE)</a>.
+          This work was done with <a href='https://mauricio-romero.com'>Mauricio Romero</a> <a href="https://www.itam.mx/">(Instituto Tecnológico Autónomo de México) </a> and Paola Mejía <a href="https://www.epfl.ch/en/">(EPFL)</a>, at the Center for Economic Research <a href="http://cie.itam.mx/">(CIE)</a>.
           </p>
         </Media.Body>
       </Media>

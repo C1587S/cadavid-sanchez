@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/scadavidsanchez/static/css/main.0b87f841.chunk.css",
-    "main.js": "/scadavidsanchez/static/js/main.5212251d.chunk.js",
-    "main.js.map": "/scadavidsanchez/static/js/main.5212251d.chunk.js.map",
+    "main.js": "/scadavidsanchez/static/js/main.3607ec19.chunk.js",
+    "main.js.map": "/scadavidsanchez/static/js/main.3607ec19.chunk.js.map",
     "runtime-main.js": "/scadavidsanchez/static/js/runtime-main.e1b59159.js",
     "runtime-main.js.map": "/scadavidsanchez/static/js/runtime-main.e1b59159.js.map",
     "static/css/2.74b270cf.chunk.css": "/scadavidsanchez/static/css/2.74b270cf.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.74b270cf.chunk.css.map": "/scadavidsanchez/static/css/2.74b270cf.chunk.css.map",
     "static/css/main.0b87f841.chunk.css.map": "/scadavidsanchez/static/css/main.0b87f841.chunk.css.map",
     "static/js/2.13704f67.chunk.js.LICENSE.txt": "/scadavidsanchez/static/js/2.13704f67.chunk.js.LICENSE.txt",
-    "static/media/SCS_CV.f8e0ae00.pdf": "/scadavidsanchez/static/media/SCS_CV.f8e0ae00.pdf",
+    "static/media/SCS_CV.46d466c1.pdf": "/scadavidsanchez/static/media/SCS_CV.46d466c1.pdf",
     "static/media/co20_img_front.b573a807.png": "/scadavidsanchez/static/media/co20_img_front.b573a807.png",
     "static/media/co20_img_int.677be307.png": "/scadavidsanchez/static/media/co20_img_int.677be307.png",
     "static/media/com18_img_cfs.d113f1fb.png": "/scadavidsanchez/static/media/com18_img_cfs.d113f1fb.png",
@@ -36,6 +36,6 @@
     "static/css/2.74b270cf.chunk.css",
     "static/js/2.13704f67.chunk.js",
     "static/css/main.0b87f841.chunk.css",
-    "static/js/main.5212251d.chunk.js"
+    "static/js/main.3607ec19.chunk.js"
   ]
 }

@@ -46,7 +46,7 @@ class SchoolMarketsP extends React.Component {
 
     <Container fluid  style={{ paddingLeft: "10vw", paddingRight: "10vw", paddingBottom: "15vh"}}>
     
-    <div id="left"><Button href="#/" variant="outline-dark">Home</Button></div>
+    <div id="left"><Button href="/" variant="outline-dark">/</Button></div>
     <br></br>
     <h1>Schooling Markets in Mexico <a href="https://github.com/C1587S/school_markets_dsp"><GoFileCode style={style} className="h_space"/></a></h1>
     <br/>

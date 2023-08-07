@@ -14,7 +14,7 @@ function MainPanel() {
             <AboutMe />
         </Row>
         <Row>
-        <div id="research"><Research /></div>
+        {/* <div id="research"><Research /></div> */}
         </Row>
         </Container>
       </div>

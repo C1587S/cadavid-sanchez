@@ -10,7 +10,10 @@ import com18_img_cfs from '../../imgs/com18_img_cfs.png';
 import cor18_img_front from '../../imgs/cor18_img_front.png';
 import cor18_img_srs from '../../imgs/cor18_img_srs.png';
 
-function EconomicsResearch() {
+function EconomicsResearch({ darkMode }) {
+  const textStyle = {
+    color: darkMode ? '#f5f5f5' : '#808880',
+  };
   return (
     <ul className="list-unstyled">
       <Media as="li">
@@ -38,8 +41,9 @@ function EconomicsResearch() {
           <a href="https://www.cemla.org/PDF/ic/2020-08-jrp-inflation-expectations/2020-08-jrp-inflation-expectations-11.pdf" target="_blank"> 
           <h5 class="colored_heading_h5">Did the Introduction of Inflation Targeting Represent a Regime Switch of Monetary Policy in Latin America?</h5>
           </a>
+          <p>[With Alberto OrtizBolaños. In: Inflationary Dynamics, Persistence, and Prices and Wages Formation. Editorial CEMLA, 2020]</p>
           
-          <p className="p_ind">
+          <p className="p_ind" style={textStyle}>
           In the 1990s, after experiencing high levels of inflation, several countries in Latin America passed constitutional 
           amendments providing greater autonomy to their central banks. A few years later, many central banks increased their 
           exchange rate flexibility and later adopted inflation targeting frameworks. These institutional changes coincided with 
@@ -83,7 +87,9 @@ function EconomicsResearch() {
           <a href="https://repositorio.uniandes.edu.co/handle/1992/41059" target="_blank">  
           <h5 class="colored_heading_h5">Monetary Policy and Structural Changes in Colombia: A Markov Switching Approach</h5>
           </a>
-          <p className="p_ind">
+          <p>[Centro de Estudios de Desarrollo Económico CEDE No. 60, Universidad de los Andes, 2018]</p>
+
+          <p className="p_ind" style={textStyle}>
           This paper analyzes the Colombian economic context between 1990Q1-2016Q4, using a 
           Markov-Switching Dynamic Stochastic General Equilibrium Model (MS-DSGE) to identify 
           regime switches in the driven mechanisms of the economy. 
@@ -124,10 +130,12 @@ function EconomicsResearch() {
         />     
         </div>
         <Media.Body>
-          <a href="https://ideas.repec.org/h/cml/incocp/5en-6.html" target="_blank">  
+          <a href="https://www.cemla.org/PDF/ic/2018-jrp-xix/2018-jrp-xix5.pdf" target="_blank">  
           <h5 class="colored_heading_h5">Targeting Long-term Rates in a Model with Financial Frictions and Regime Switching</h5>
           </a>
-          <p className="p_ind">
+          <p>[With Alberto Ortiz Bolaños and Gerardo Kattan. In: Monetary Policy and Financial Stability in Latin America and the Caribbean, 2020]</p>
+          
+          <p className="p_ind" style={textStyle}>
           Decreases (increases) in long-term interest rates caused by compressions (dilations) of term premiums could be 
           financially expansive (contractive) and might require monetary policy restraints (stimulus). This paper uses 
           measures of the term premium calculated by Adrian et al. (2013) to perform Bayesian estimations of a Markov-switching 
@@ -179,7 +187,9 @@ function EconomicsResearch() {
           <a href="https://albertoortiznet.files.wordpress.com/2018/03/monetary_and_fiscal_policies_interactions_in_mexico_1981_-_2016___march022018.pdf" target="_blank">  
           <h5 class="colored_heading_h5">Monetary and Fiscal Policy Interactions in Mexico, 1981-2016</h5>
           </a>
-          <p className="p_ind">
+          <p>[With Alberto Ortiz Bolaños and A. Martínez Fritscher. Working paper.]</p>
+
+          <p className="p_ind" style={textStyle}>
           This paper analyzes the role of fiscal and monetary policies in the determination of inflation and government debt 
           in Mexico during the 1981-2016 period. A Markov-switching DSGE model estimation allows us to identify five different 
           periods of fiscal and monetary policy interactions congruent with a historical account of the Mexican monetary and 
